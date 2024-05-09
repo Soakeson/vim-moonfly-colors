@@ -29,7 +29,7 @@ let g:moonflyTransparent = get(g:, 'moonflyTransparent', v:false)
 let g:moonflyUndercurls = get(g:, 'moonflyUndercurls', v:true)
 let g:moonflyUnderlineMatchParen = get(g:, 'moonflyUnderlineMatchParen', v:false)
 let g:moonflyVirtualTextColor =  get(g:, 'moonflyVirtualTextColor', v:false)
-let g:moonflyWinSeparator = get(g:, 'moonflyWinSeparator', 1)
+let g:moonflyWinSeparator = get(g:, 'moonflyWinSeparator', 2)
 
 if has('nvim')
     lua require("moonfly").style()
